@@ -26,4 +26,4 @@ i spent 29 minutes and 56 seconds making this code. (plus some 3 or 5 i spent ma
 
 that was pretty easy, i needed to search how to covert binary to decimal tough 
 
-there are bugs, wich i fixed only after stoping the watch. my objective've been concluded
+there are bugs, wich i fixed only after stoping the watch. my objective's been concluded
