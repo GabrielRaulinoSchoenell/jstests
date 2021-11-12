@@ -2,14 +2,22 @@
     margin: 0;
     box-sizing: border-box;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--color);
 }
 :root{
     --background-color: #fff;
     --color: #000;
+    --placeholder: #444;
+    --unactive: #999;
 }
 body[theme = 'dark']{
     --background-color: #555;
     --color: #fff;
+    --placeholder: #ccc;
+    --unactive: #210;
+}
+body{
+    background-color: var(--background-color);
 }
 .modal{
     display: none;
@@ -41,6 +49,10 @@ body[theme = 'dark']{
     border-bottom: 1px solid #777;
     text-align:center;
     outline: none;  
+    background-color: var(--background-color);
+}
+.modal-content input::placeholder{
+    color: var(--placeholder);
 }
 .modal-content button{
     font-size: 30px;
@@ -118,9 +130,9 @@ body[theme = 'dark']{
     font-size: 20px;
 }
 .unactive{
-    background-color: #aaa;
+    background-color: var(--unactive);
     cursor:no-drop;
 }
 .active:hover{
-    background-color: #eee;
+    background-color: #bac;
 }

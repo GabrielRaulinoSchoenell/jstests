@@ -5,6 +5,12 @@ let calendarContent = document.querySelector('.calendar-content');
 let modal = document.querySelector('.modal');
 let modalDay = document.querySelector('.modal-content-day');
 
+document.addEventListener('keypress', (e)=>{
+    if(e.key === ';') 
+    (document.body.getAttribute('theme') === 'dark')? document.body.setAttribute('theme', 'none') : document.body.setAttribute('theme', 'dark')
+    // only to joke, this dark theme is really bad
+})
+
 
 let date = (year,month,day)=>new Date(year,month,day);
 let dateWeek = (year,month)=>new Date(year,month);

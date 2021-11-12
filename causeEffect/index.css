@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.name-list{
+    display: flex;
+    flex-direction: column;
+    color: #777;
+    width: 700px;
+    height: 800px;
+    box-shadow: 1px 1px 4px #888;
+    overflow-y: auto;
+}
+.name-list div{
+    padding: 7px;
+    cursor: pointer;
+}
+.name-list div:hover{
+    color: #000;
+    background-color: #ccc;
+}
+.clicked{
+    font-size: 30px;
+    color: #000;
+}
+
+.displaied-info{
+    width: 700px;
+    height: 800px;
+    box-shadow: 1px 1px 4px #888;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name{
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+.user-info{
+    width: 90%;
+}
+.info{
+    margin-top: 20px;
+    font-size: 30px;
+}
