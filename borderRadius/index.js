@@ -7,7 +7,8 @@ let cssStructure = [
     'border-top-left-radius: 0px',
     'border-top-right-radius: 0px',
     'border-bottom-left-radius: 0px', 
-    'border-bottom-right-radius: 0px']
+    'border-bottom-right-radius: 0px'
+]
 
 
 
