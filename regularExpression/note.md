@@ -45,3 +45,7 @@ _ _ _ _ _ - 837     didn't take the 837 cause it doesn't follow the rule of 4 or
 /[!a-z]/            validates everything but what's inside the []
 
 /(\"[A-z0-9]{1,}\"\:\"[A-z0-9]{1,}\"\,)/ JSON validator 
+
+
+
+## regular expression in java script

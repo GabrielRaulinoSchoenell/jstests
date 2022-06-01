@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.theme{
+    margin: auto;
+    width: 1200px;
+    margin-top: 300px;
+    font-size: 40px;
+}

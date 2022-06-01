@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+ul, li{
+    list-style: none;
+}
+
+.page{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*loogin*/
+#login{
+    display: none;
+}
+#loginName{
+    border: 2px solid #333;
+    width: 100%;
+    max-width: 400px;
+    font-size: 30px;
+    padding: 10px;
+    outline:0;
+    border-radius: 3px;
+    background-color: #ccc;
+}
+
+/*chat*/
+
+#chat{
+    display: flex;
+}
+.chat-area{
+    flex:1;
+    width: 100%;
+    display: flex;
+    background-color: #eee;
+}
+
+.chat-list{
+    flex:1; 
+    overflow-y: scroll;
+    height: calc(100vh - 40px);
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-list li.me{
+    background-color: #8b3;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 5px 30px;
+    align-self: flex-end;
+    max-width: 400px;
+    line-height: 30px;
+    font-size: 16px
+}
+.chat-list li.others{
+    background-color: #8ae;
+    padding: 15px;
+    border-radius: 10px;
+    align-self: flex-start;
+    margin: 5px 30px;
+    max-width: 400px;
+    line-height: 30px;
+    font-size: 16px
+}
+
+.user-list{
+    width:300px;
+    background-color: #fff;
+    overflow-y: scroll;
+    max-height: calc(100vh - 40px);
+    right: 0;
+}
+.user-list li{
+    padding: 15px;
+    font-size: 18px;
+}
+
+.chat-input{
+    width: 100%;
+    display: flex;
+}
+#chat-input{
+    flex:1;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 20px;
+    background-color: #fff;
+    outline:0;
+    border:0;
+}

@@ -3,6 +3,11 @@
     box-sizing: border-box;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+aside{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
 .inputs, .buttons{
     display: flex;
     align-items: center;
@@ -13,7 +18,7 @@
 }
 textarea{
     width: 1400px;
-    height: 400px;
+    height: 200px;
     margin: 10px;
 }
 button{
